@@ -1,5 +1,7 @@
 import numpy as np
 import streamlit as st
+# type: ignore
+# pyright: reportMissingImports=false
 from tensorflow.keras.models import load_model
 import cv2
 from collections import deque
